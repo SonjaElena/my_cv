@@ -189,11 +189,11 @@ a {
 }
 
 .git-link {
-  display: block;
   text-decoration: underline;
   font-size: 1.5rem;
   margin-top: 1rem;
 }
+
 .git-link:hover {
   color: var(--primary-color);
 }
