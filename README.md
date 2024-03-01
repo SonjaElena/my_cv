@@ -7,4 +7,4 @@ It is a responsive and interactive CV.
 
 [Download PDF](CV_SonjaKoppenhoefer.pdf)
 
-![CV preview](CV_SonjaKoppenhoefer.png)
+![CV preview](Lebenslauf_SonjaKoppenhöfer.pdf)

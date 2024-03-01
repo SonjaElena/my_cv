@@ -1,11 +1,6 @@
 @media screen and (max-width: 500px) {
   .body {
-    width: 100%;
-  }
-
-  #profilbild {
-    max-width: 100%;
-    max-height: 100%;
+    display: block;
   }
 }
 
@@ -19,12 +14,12 @@
 body {
   display: grid;
   grid-template-columns: 35% 65%;
-  grid-template-rows: auto auto;
+  grid-template-rows: 20% auto;
   margin: 40px;
 }
 
 html {
-  font-size: 22px;
+  font-size: 16px;
 }
 
 .header {
@@ -32,28 +27,39 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: transparent;
 }
 
 .image {
-  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
   background-color: rgba(130, 1, 1, 0.8);
+  border: transparent;
+}
+
+.image h1,
+.image h2,
+.image p {
+  margin: 10px 0;
 }
 
 .sidebar {
   background-color: rgb(227, 222, 222);
-  padding-left: 50px;
+  padding-left: 30px;
+  padding-right: 10px;
   margin: 0px 50px;
 }
 
 .mainpart {
-  padding-left: 50px;
+  padding-left: 30px;
 }
 
 h3 {
   margin-top: 2rem;
   position: relative;
   padding-bottom: 5px;
-  font-size: 35px;
 }
 
 h3::after {
@@ -69,7 +75,7 @@ h3::after {
 /* Details */
 #profilbild {
   max-width: 45rem;
-  height: 70%;
+  height: 90%;
   border-radius: 50%;
 }
 
