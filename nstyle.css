@@ -14,7 +14,7 @@
 body {
   display: grid;
   grid-template-columns: 35% 65%;
-  grid-template-rows: 20% auto;
+  grid-template-rows: 25% 1fr;
   margin: 40px;
 }
 
@@ -23,7 +23,7 @@ html {
 }
 
 .header {
-  background-color: rgba(130, 1, 1, 0.8);
+  background-color: rgba(143, 9, 9, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +35,7 @@ html {
   flex-direction: column;
   justify-content: center;
   padding: 30px;
-  background-color: rgba(130, 1, 1, 0.8);
+  background-color: rgba(143, 9, 9, 0.8);
   border: transparent;
 }
 
