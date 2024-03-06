@@ -14,7 +14,7 @@
 body {
   display: grid;
   grid-template-columns: 40% 60%;
-  grid-template-rows: 25% 1fr;
+  grid-template-rows: 20% 1fr;
   margin: 40px;
 }
 
@@ -79,7 +79,7 @@ h3::after {
 /* Details */
 #profilbild {
   max-width: 45rem;
-  height: 90%;
+  height: 80%;
   border-radius: 50%;
 }
 
